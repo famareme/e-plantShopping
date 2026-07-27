@@ -25,6 +25,13 @@ function AboutUs() {
         Join us in our mission to create a greener, healthier world. Visit Paradise Nursery today and experience the 
         beauty of nature right at your doorstep.
       </p>
+
+      {/* generate a function that will generate a random number between 1 and 100 and display it in the console */}
+     <p> <button className="get-started-button" onClick={() => console.log(Math.floor(Math.random() * 100) + 1)}>Generate Random Number</button>
+<br/>
+      {/* generate a function that will generate a random string and display it in the console */}
+      <button className="cart-item-delete" onClick={() => console.log(Math.random().toString(36).substring(2, 15))}>Generate Random String</button>
+      </p>
     </div>
   );
 }
